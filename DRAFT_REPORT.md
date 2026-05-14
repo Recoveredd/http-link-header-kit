@@ -90,6 +90,7 @@ Validations exécutées:
 - `npm run build`: OK.
 - `npm pack --dry-run`: premier essai bloqué par un cache npm global non inscriptible; essai OK avec `npm_config_cache=/private/tmp/http-link-header-kit-npm-cache`, 11.1 kB packed.
 - Smoke `dist`: OK, duplicate param diagnostiqué et rel lookup case-insensitive.
+- Promotion 2026-05-14: ajout README démo/qualité/licence, keywords, CI GitHub, `CONTRIBUTING.md`, `SECURITY.md`.
 
 Git local: initialisé dans le dossier du brouillon uniquement. `git branch -M main` a affiché un message `HEAD.lock`, mais le dépôt est bien sur `main`. Aucun remote ajouté.
 
